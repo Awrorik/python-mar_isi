@@ -7,9 +7,39 @@ t.speed(5)
 t.fillcolor("pink")
 t.begin_fill()
 
+
 for i in range(4):
      t.forward(100)
      t.right(90)
+t.end_fill()
+
+t.penup()
+t.forward(200)
+t.pendown()
+t.fillcolor("grey")
+t.begin_fill()
+t.circle(60)
+t.end_fill()
+
+t.penup()
+t.left(180)
+t.forward(270)
+t.pendown()
+t.fillcolor("yellow")
+t.begin_fill()
+t.forward(155)
+t.rt(116)
+t.forward(155)
+t.rt(123)
+t.forward(165)
+t.end_fill()
+
+
+
+
+t.fillcolor("yellow")
+t.begin_fill()
+
 
 t.end_fill()
 turtle.done()
